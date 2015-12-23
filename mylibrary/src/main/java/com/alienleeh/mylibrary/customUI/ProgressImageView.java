@@ -145,6 +145,10 @@ public class ProgressImageView extends ImageView{
         ImageLoader.getInstance().displayImage(url,this,options);
     }
 
+    /**
+     * 设置Resource文件图片
+     * @param default_img Resource ID
+     */
     public void loadAsResource(int default_img) {
         setImageDrawable(getResources().getDrawable(default_img));
     }
