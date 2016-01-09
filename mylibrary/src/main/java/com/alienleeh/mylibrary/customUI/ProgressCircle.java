@@ -21,6 +21,7 @@ import com.alienleeh.mylibrary.R;
 public class ProgressCircle extends View{
 
     private Paint innerPaint;
+    //内圆画笔
     private Paint ringPaint;
     private Paint textPaint;
     private TypedArray typedArray;
