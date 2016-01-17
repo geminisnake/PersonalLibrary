@@ -114,6 +114,7 @@ public class ProgressCircle extends View{
         super.onMeasure(widthMeasureSpec, heightMeasureSpec);
         int width = MeasureSpec.getSize(widthMeasureSpec);
         int height = MeasureSpec.getSize(heightMeasureSpec);
+        //测得圆心
         circleX = (float)width / 2;
         circleY = (float)height / 2;
         rectArc = new RectF(circleX - (radius - 2*storke),
