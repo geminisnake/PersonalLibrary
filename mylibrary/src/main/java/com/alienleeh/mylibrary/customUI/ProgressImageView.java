@@ -35,6 +35,10 @@ public class ProgressImageView extends ImageView{
     private static final Paint maskPaint = createMaskPaint();
     private Drawable mask = getResources().getDrawable(R.drawable.nim_message_item_round_bg);
 
+    /**
+     * 创建圆角rectangle画笔
+     * @return
+     */
     private static final Paint createMaskPaint() {
         Paint paint = new Paint();
 
