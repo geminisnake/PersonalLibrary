@@ -23,6 +23,7 @@ public class ProgressCircle extends View{
     private Paint innerPaint;
     //内圆画笔
     private Paint ringPaint;
+    //进度圆环画笔
     private Paint textPaint;
     private TypedArray typedArray;
     private float radius;
