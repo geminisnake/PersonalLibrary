@@ -27,8 +27,11 @@ public class ProgressCircle extends View{
     private Paint textPaint;
     //文字画笔
     private TypedArray typedArray;
+
     private float radius;
+    //内圆半径
     private int innerColor;
+    //内圆颜色
     private int ringColor;
     private int textColor;
     private float storke;
