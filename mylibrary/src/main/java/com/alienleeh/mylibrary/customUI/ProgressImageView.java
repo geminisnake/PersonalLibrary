@@ -49,6 +49,10 @@ public class ProgressImageView extends ImageView{
         return paint;
     }
 
+    /**
+     * 设置进度并刷新
+     * @param progress ：进度值
+     */
     public void setProgress(int progress) {
         this.progress = progress;
         postInvalidate();
