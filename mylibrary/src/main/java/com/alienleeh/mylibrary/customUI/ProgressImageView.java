@@ -84,7 +84,6 @@ public class ProgressImageView extends ImageView{
         if (mask != null) {
             // bounds
 
-
             // create blend layer
             canvas.saveLayer(0, 0, width, height, null, Canvas.ALL_SAVE_FLAG);
 
@@ -127,11 +126,20 @@ public class ProgressImageView extends ImageView{
         }
     }
 
+    /**
+     * 设置asset资源文件图片
+     * @param locationImage 资源文件路径
+     * @param options Imageloader选项
+     */
     public void loadAsAsset(String locationImage, DisplayImageOptions options) {
         String apath = ImageDownloader.Scheme.ASSETS.wrap(locationImage);
         ImageLoader.getInstance().displayImage(apath,this,options);
     }
-
+    /**
+     * 设置存储路径图片
+     * @param thumbpath 图片路径
+     * @param options Imageloader选项
+     */
     public void loadAsPath(String thumbpath, DisplayImageOptions options) {
         String url = ImageDownloader.Scheme.FILE.wrap(thumbpath);
         ImageLoader.getInstance().displayImage(url,this,options);
