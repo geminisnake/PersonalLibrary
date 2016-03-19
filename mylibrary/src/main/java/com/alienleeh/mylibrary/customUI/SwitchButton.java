@@ -15,7 +15,8 @@ import android.view.View;
 import com.alienleeh.mylibrary.R;
 
 /**
- * Created by AlienLeeH<br/>  on 2016/7/27..Hour:04<br/>
+ * Created by AlienLeeH<br/>
+ * on 2016/7/27..Hour:04<br/>
  * Email:alienleeh@foxmail.com<br/>
  * Description:仿苹果button
  */
