@@ -289,6 +289,9 @@ public class CircleIndicator extends LinearLayout {
         animator.start();
     }
 
+    /**
+     * 困死我了
+     */
     private class ReverseInterpolator implements Interpolator {
         @Override public float getInterpolation(float value) {
             return Math.abs(1.0f - value);
