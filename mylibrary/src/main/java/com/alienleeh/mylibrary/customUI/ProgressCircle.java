@@ -121,6 +121,7 @@ public class ProgressCircle extends View{
                 circleY - (radius - 2*storke),
                 circleX + (radius - 2*storke),
                 circleY + (radius - 2*storke));
+        //“外切”进度弧线矩形
     }
 
     @Override
