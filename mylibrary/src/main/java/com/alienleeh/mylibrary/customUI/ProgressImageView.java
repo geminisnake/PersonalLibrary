@@ -28,6 +28,7 @@ public class ProgressImageView extends ImageView{
 
     private Context mContext;
     private Paint mPaint;
+    //半透明进度图形画笔
     private int progress;
     private float radius;
     private Rect textBounds;

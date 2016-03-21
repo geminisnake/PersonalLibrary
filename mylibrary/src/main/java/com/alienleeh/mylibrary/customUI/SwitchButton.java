@@ -103,7 +103,7 @@ public class SwitchButton extends View implements View.OnTouchListener{
             isChecked = !isChecked;
         }
 
-        // 对游标位置进行异常判断...
+        // 对游标位置进行异常判断.
         if (x < 0) {
             x = 0;
         } else if (x > bg_on.getWidth() - slip_btn.getWidth()) {
