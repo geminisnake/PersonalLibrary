@@ -20,6 +20,9 @@ import com.alienleeh.mylibrary.R;
 
 import static android.support.v4.view.ViewPager.OnPageChangeListener;
 
+/**
+ * 页面指示器
+ */
 public class CircleIndicator extends LinearLayout {
 
     private final static int DEFAULT_INDICATOR_WIDTH = 5;
