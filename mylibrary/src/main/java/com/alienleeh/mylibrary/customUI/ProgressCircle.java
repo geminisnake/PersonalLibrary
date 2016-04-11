@@ -55,6 +55,7 @@ public class ProgressCircle extends View{
 
     private int progress;
     private Rect tBounds;
+    //字体边界
 
     public ProgressCircle(Context context) {
         this(context,null);
