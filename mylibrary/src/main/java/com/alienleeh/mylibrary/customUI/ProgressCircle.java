@@ -40,7 +40,9 @@ public class ProgressCircle extends View{
     //圆环厚度
     private RectF rectArc;
     private float circleX;
+    //圆心x轴
     private float circleY;
+    //圆心y轴
 
     public void setProgress(int progress) {
         this.progress = progress;
