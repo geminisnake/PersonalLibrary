@@ -37,6 +37,7 @@ public class ProgressCircle extends View{
     private int textColor;
     //文字颜色
     private float storke;
+    //圆环厚度
     private RectF rectArc;
     private float circleX;
     private float circleY;
