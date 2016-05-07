@@ -44,6 +44,10 @@ public class ProgressCircle extends View{
     private float circleY;
     //圆心y轴
 
+    /**
+     * 设置进度，刷新界面
+     * @param progress 进度
+     */
     public void setProgress(int progress) {
         this.progress = progress;
         postInvalidate();
