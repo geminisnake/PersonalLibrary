@@ -290,7 +290,7 @@ public class CircleIndicator extends LinearLayout {
     }
 
     /**
-     * 困死我了
+     * 困死我了，啊哈
      */
     private class ReverseInterpolator implements Interpolator {
         @Override public float getInterpolation(float value) {
